@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+@layer base {
+    body {
+        @apply font-[Libre+Baskerville];
+    }
+    li {
+        @apply px-4;
+        @apply cursor-pointer;
+    }
+}
+
